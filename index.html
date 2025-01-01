@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Frontend and WordPress developer with expertise in building modern, responsive, and high-performance websites." />
+  <meta name="keywords" content="frontend developer, WordPress developer, web development, HTML, CSS, JavaScript, Gsap, responsive design, UI/UX, UI/UX design, UI/UX designs, portfolio design" />
+  <meta name="author" content="Ahmed Salman" />
+  <meta property="og:title" content="Frontend and WordPress Developer" />
+  <meta property="og:description" content="Specializing in creating custom, responsive, and performance-driven websites." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://salman-don-v.netlify.app" />
+  <meta property="og:image" content="https://www.yourwebsite.com/your-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Frontend and WordPress Developer" />
+  <meta name="twitter:description" content="Creating modern, responsive, and performance-driven websites." />
+  <meta name="twitter:image" content="https://www.yourwebsite.com/your-image.jpg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css" />
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+  <div class="preloader" id="preloader">
+        <span id="counter">0</span>%
+      </div>
+
+  <header>
+    <div class="desktop navbar">
+      <div class="logo">
+        <h6>Ahmed Salman<span class="d-block">— Killer portfolio —</span></h6>
+      </div>
+      <div class="menu">
+        <p>01 <a href="#home" class="rolling-text">Home</a></p>
+        <p>02 <a href="./assets/contact.html" class="rolling-text">Portfolio</a></p>
+        <p>03 <a href="#about-sec" class="rolling-text">About Me</a></p>
+        <p>04 <a href="#footer" class="rolling-text">Get in touch</a></p>
+      </div>
+    </div>
+
+    <div class="mobile mobile-header">
+      <div class="m-name-header px-3 py-3 position-fixed top-0 w-100 d-flex d-md-none d-lg-none justify-content-start align-item-center">
+        <h6>Ahmed Salman</h6>
+      </div>
+      <div class="m-header d-block d-lg-none d-md-none">
+        <input type="checkbox" id="toggle" style="display: none" />
+        <label class="toggle-btn toggle-btn__cross" for="toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </label>
+        <nav class="m-nav">
+          <a href="#"><span>01</span> Work</a>
+          <a href="#"><span>02</span> About me</a>
+          <a href="#"><span>03</span> Playground</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+
+    <div class="noise">
+      <canvas id="noise-canvas"></canvas>
+    </div>
+
+    <div class="hero text-container">
+      <div class="img"></div>
+      <div class="cover d-flex flex-column align-items-center justify-content-center">
+        <div class="fir w-100 d-flex justify-content-center align-items-center">
+         
+          <h1 class="ml2">
+            
+            <span>Multi-</span>
+            <span>Multi-</span>
+            <span>Multi-</span>
+            <span>Multi-</span>
+          </h1>
+        </div>
+        <div class="sec w-100 d-flex justify-content-center align-items-center">
+          <h1 class="ml3">
+            <span>Disciplinary</span>
+            <span>Disciplinary</span>
+            <span>Disciplinary</span>
+            <span>Disciplinary</span>
+          </h1>
+        </div>
+        <div class="thi w-100 d-flex justify-content-center align-items-center">
+        
+          <h1 class="ml4">
+            <span>Designer</span>
+            <span>Designer</span>
+            <span>Designer</span>
+            <span>Designer</span>
+          </h1>
+        </div>
+      </div>
+      <div class="bottom row">
+          <div class="col-lg-6 time">
+            <h1>Based in Karachi, Pk <span>3:52 AM PST 19.79°C</span></h1>
+          </div>
+          <div class="col-lg-6 freelance d-flex justify-content-end">
+            <h1>Freelance Availability<span><i class="ri-time-line"></i> limited hours</span></h1>
+          </div>
+      </div>
+     <div class="scroll-down d-flex flex-column align-items-center justify-content-center">
+      <a href="#second-section" class="rolling-text">Scroll</a>
+      <div class="arrow">
+        <span></span>
+        <span></span>
+      </div>
+     </div>
+
+    </div>
+
+    <!-- ==========2nd section=================== -->
+
+    <section class="second-section" id="second-section">
+      <div class="row h-100">
+        <div class="col-lg-7 h-100 content-txt">
+          <div class="lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+
+          <h6>American <span>Product Designer</span> dedicated to the <span>craft</span> of creating <span>0➝1</span> experiences till the last <span>detail</span>.</h6>
+          <div class="smool-text w-100">
+            <p class="smooth-text-p">I've helped multiple companies deliver <span>high-quality design</span>.</p>
+            <p class="smooth-text-p2">Currently founding design at <a href="sdasdasd" class="rolling-text">Pinnacle Designs</a>.</p>
+          </div>
+
+
+
+
+          <div class="logos">
+            <div class="logo_items">
+              <img src="./assets/images/new-logos/1.png">
+              <img src="./assets/images/new-logos/2.png">
+              <img src="./assets/images/new-logos/3.png">
+              <img src="./assets/images/new-logos/4.png">
+              <img src="./assets/images/new-logos/5.png">
+              <img src="./assets/images/new-logos/1.png">
+              <img src="./assets/images/new-logos/2.png">
+              <img src="./assets/images/new-logos/3.png">
+              <img src="./assets/images/new-logos/4.png">
+              <img src="./assets/images/new-logos/5.png">
+              <img src="./assets/images/new-logos/1.png">
+              <img src="./assets/images/new-logos/2.png">
+              <img src="./assets/images/new-logos/3.png">
+              <img src="./assets/images/new-logos/4.png">
+              <img src="./assets/images/new-logos/5.png">
+            
+            </div>
+              <div class="logo_items">
+                <img src="./assets/images/new-logos/1.png">
+                <img src="./assets/images/new-logos/2.png">
+                <img src="./assets/images/new-logos/3.png">
+                <img src="./assets/images/new-logos/4.png">
+                <img src="./assets/images/new-logos/5.png">
+                <img src="./assets/images/new-logos/1.png">
+                <img src="./assets/images/new-logos/2.png">
+                <img src="./assets/images/new-logos/3.png">
+                <img src="./assets/images/new-logos/4.png">
+                <img src="./assets/images/new-logos/5.png">
+                <img src="./assets/images/new-logos/1.png">
+                <img src="./assets/images/new-logos/2.png">
+                <img src="./assets/images/new-logos/3.png">
+                <img src="./assets/images/new-logos/4.png">
+                <img src="./assets/images/new-logos/5.png">
+            
+            </div>
+          </div>
+
+
+
+
+        </div>
+        <div class="col-lg-4 d-lg-block">
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========2nd section ensds=================== -->
+    <!-- =======================================================================
+    about section 
+    =========================================================================   -->
+
+    <div class="heading" id="about">
+      <h6 class="d-inline-block">About <i>me</i></h6>
+      <div class="top-line flex-grow-1">
+        adassafsdfsfsdfkjsdfhsdkfhgkjhskjhk
+        <div class="lines">
+          <div class="line"></div>
+        </div>
+      </div>
+      <p class="d-inline-block"><span>Detail Oriented</span><span>Based in PK</span></p>
+    </div>
+    <div class="heading" id="about">
+      <h6 class="d-inline-block">Selected <i>Work</i></h6>
+      <div class="top-line flex-grow-1">
+        adassafsdfsfsdfkjsdfhsdkfhgkjhskjhk
+        <div class="lines">
+          <div class="line"></div>
+        </div>
+      </div>
+      <p class="d-inline-block"><span>Detail Oriented</span><span>Based in PK</span></p>
+    </div>
+    <div class="heading" id="about">
+      <h6 class="d-inline-block">Portfolios <i>Gallery</i></h6>
+      <div class="top-line flex-grow-1">
+        adassafsdfsfsdfkjsdfhsdkfhgkjhskjhk
+        <div class="lines">
+          <div class="line"></div>
+        </div>
+      </div>
+      <p class="d-inline-block"><span>Detail Oriented</span><span>Based in PK</span></p>
+    </div>
+
+    <section class="about-section" id="about-sec">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex flex-column">
+
+          <div class="firstcolumn">
+            <p>Product Designer with 3+ years of experience, focused on creating functional and user-centered digital products with visually stunning designs.</p>
+            <div class="social">
+              <div class="icons">
+                <div class="icon-div-email" data-tooltip="copy email"><label class="animated-icon-2"></label></div>
+                <div class="icon-div" data-tooltip="linked in"><a href="https://pk.linkedin.com/" class="animated-icon"></a></div>
+                <div class="icon-div" data-tooltip="instagram"><a href="" class="animated-icon-3"></a></div>
+                <div class="icon-div" data-tooltip="twitter, X"><a href="" class="animated-icon-4"></a></div>
+              </div>
+              <div class="download"><a href=""><i class="ri-download-line"></i> Resume</a></div>
+            </div>
+          </div>
+
+
+          <div class="secondcolumn d-none d-md-block d-block">
+            <div class="aboutsecheading">
+              <p>My Background</p>
+            </div>
+            <div class="content">
+              <p class="mb-4">Growing up in Karachi, the <span>modernist architectural capital</span> of Pakistan, my home was a fusion of creativity and analytical thinking, influenced by my father's career as a fashion designer. This <span>unique blend</span> has deeply shaped my perspective.</p>
+              <p class="mb-4">With over three years of <span>professional experience</span> in <span>front-end</span> development and <span>WordPress</span>, I've honed my skills in crafting interactive, <span>SEO-optimized</span> websites that deliver exceptional user experiences. My expertise
+                spans modern tools and frameworks, from Tailwind CSS and <span>React.js</span> to GSAP and WordPress addons like <span>Elementor</span> and <span>WooCommerce</span>.</p>
+              <p class="mb-4">My curiosity led me to wonder: <span>could I also create something that can evoke this effect on people?</span></p>
+              <p class="mb-4">Today, <span>I apply my multidisciplinary design skills</span>, aiming to create solutions that make people feel and remember, <span>elevating everyday experiences into inspiring solutions</span>.</p>
+              <h6>Salman.</h6>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex flex-column">
+
+          <div class="about-img">
+            <p><span>Olá! 👋</span></p>
+            <p><span>My Name is Ahmed Salman</span></p>
+            <p><span>The Pixel Perfect Designer</p>
+          </div>
+
+          <div class="awwards d-none d-md-block d-block">
+            <div class="aboutsecheading">
+              <p>Awards & Features</p>
+            </div>
+            <div class="content">
+
+              <div class="boxes">
+
+                <div class="box">
+                  <div class="lft">
+                    <p>Early 2023' Portfolio</p>
+                  </div>
+                  <div class="rgt">
+                    <img src="./assets/images/awards/kudos.avif" alt="">
+                    <div class="txt">
+                      <h6>Special Kudos Award</h6>
+                      <p>CSS Design Awards</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="lft">
+                    <p></p>
+                  </div>
+                  <div class="rgt">
+                    <img src="./assets/images/awards/ux.avif" alt="">
+                    <div class="txt">
+                      <h6>UX Design Award</h6>
+                      <p>CSS Design Awards</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="lft">
+                    <p></p>
+                  </div>
+                  <div class="rgt">
+                    <img src="./assets/images/awards/innovation.avif" alt="">
+                    <div class="txt">
+                      <h6>UI Design Award</h6>
+                      <p>CSS Design Awards</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="lft">
+                    <p></p>
+                  </div>
+                  <div class="rgt">
+                    <img src="./assets/images/awards/ux.avif" alt="">
+                    <div class="txt">
+                      <h6>Innovation Award</h6>
+                      <p>CSS Design Awards</p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="box" id="awwards-box-last-item">
+                  <div class="lft">
+                    <p>P1nnacle Designs <br>
+                      2024' Website</p>
+                  </div>
+                  <div class="rgt">
+                    <img src="./assets/images/awards/dark-design.png" alt="">
+                    <div class="txt">
+                      <h6>Featured Website</h6>
+                      <p>Dark Mode Design</p>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="Favorite d-none d-md-block d-block">
+            <div class="aboutsecheading">
+              <p>Favorite Salman</p>
+            </div>
+            <div class="inner-favorite">
+              <div class="box">
+                <img src="https://m.media-amazon.com/images/I/71gD-a8xW5L._AC_UF350,350_QL80_.jpg" alt="">
+                <div class="div">
+                  <p>Listning Books<a class="d-block" href="">Audio Book summery</a> <span>Preview</span></p>
+                </div>
+                <div class="play position-absolute">
+                  <a href=""><img src="./assets/images/svgs/play-circle-svgrepo-com.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="box mt-3">
+                <img src="./assets/images/all/zem-tv.png" alt="">
+                <div class="div">
+                  <p>Zem Tv <a class="d-block" href="">mystery, Geography, Space</a> <span>Preview</span></p>
+                </div>
+                <div class="play position-absolute">
+                  <a href=""><img src="./assets/images/svgs/play-circle-svgrepo-com.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex flex-column overflow-hidden">
+
+          <div class="experiance">
+            <div class="aboutsecheading">
+              <p>EXPERIENCE</p>
+            </div>
+            <div class="content">
+
+              <div class="box d-flex">
+                <div class="lft">
+                  <p>2023 — Now</p>
+                </div>
+                <div class="rgt">
+                  <p>Founding Product Designer <br><label>Market Digital US </label><span>Remote</span></p>
+                </div>
+              </div>
+
+              <div class="box d-flex">
+                <div class="lft">
+                  <p>2024 — Now</p>
+                </div>
+                <div class="rgt">
+                  <p>Freelance Product Designer <br><a href="">Pinnacle Designs <svg width="101px" height="101px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#ffffff" stroke-width="1.9200000000000004" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                      </svg></a><span>Remote</span></p>
+                </div>
+              </div>
+
+              <div class="box d-flex">
+                <div class="lft">
+                  <p>2022 — 2023</p>
+                </div>
+                <div class="rgt">
+                  <p>Principal Product Designer <br><a href="">Pinnacle Designs <svg width="101px" height="101px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#ffffff" stroke-width="1.9200000000000004" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                      </svg></a><span>Remote</span></p>
+                </div>
+              </div>
+
+              <div class="box d-flex">
+                <div class="lft">
+                  <p>2024 — Now</p>
+                </div>
+                <div class="rgt">
+                  <p>Design Lead — Design Director <br><a href="">Digi World tech <svg width="101px" height="101px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#ffffff" stroke-width="1.9200000000000004" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                      </svg></a></p>
+                </div>
+              </div>
+
+              <div class="box d-flex">
+                <div class="lft">
+                  <p>2022 — 2023</p>
+                </div>
+                <div class="rgt">
+                  <p>UI/UX Designer <br> <label>P1nnacle Web Designs</label></p>
+                </div>
+              </div>
+
+              <div class="box d-flex">
+                <div class="lft">
+                  <p>2022 — Now</p>
+                </div>
+                <div class="rgt">
+                  <p>Front-end Developer
+                    <a href="">Digi Patch Solutions
+                      <svg width="101px" height="101px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#ffffff" stroke-width="1.9200000000000004" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                      </svg>
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div class="line"></div>
+            <p>Companies I've collaborated with</p>
+            <div class="logo-slider">
+              <div>
+                <img src="./assets/images/new-logos/1.png">
+                <img src="./assets/images/new-logos/2.png">
+                <img src="./assets/images/new-logos/3.png">
+                <img src="./assets/images/new-logos/4.png">
+                <img src="./assets/images/new-logos/5.png">
+              </div>
+
+              <div>
+                <img src="./assets/images/new-logos/1.png">
+                <img src="./assets/images/new-logos/2.png">
+                <img src="./assets/images/new-logos/3.png">
+                <img src="./assets/images/new-logos/4.png">
+                <img src="./assets/images/new-logos/5.png">
+              </div>
+
+            </div>
+          </div>
+
+          <div class="secondcolumn d-block d-md-none d-lg-none">
+            <div class="aboutsecheading">
+              <p>My Background</p>
+            </div>
+            <div class="content">
+              <p class="mb-4">Growing up in Karachi, the <span>modernist architectural capital</span> of Pakistan, my home was a fusion of creativity and analytical thinking, influenced by my father's career as a photographer and my mother's profession as a lawyer. This <span>unique blend</span> has
+                deeply shaped my perspective.</p>
+              <p class="mb-4">My <span>fascination with technology</span> began at age four, sparked by our trusty beige computer. Although I pursued a <span>Diploma — Software engineering</span>, my true passion lies in the <span>transformative power of great design craft</span>, mainly inspired by
+                the design craftsmanship behind Apple products.</p>
+              <p class="mb-4">My curiosity led me to wonder: <span>could I also create something that can evoke this effect on people?</span></p>
+              <p class="mb-4">Today, <span>I apply my multidisciplinary design skills</span>, aiming to create solutions that make people feel and remember, <span>elevating everyday experiences into inspiring solutions</span>.</p>
+              <h6>Salman.</h6>
+            </div>
+          </div>
+
+          <div class="awwards d-block d-md-none d-lg-none">
+            <div class="aboutsecheading">
+              <p>Awards & Features</p>
+            </div>
+            <div class="content">
+
+              <div class="boxes">
+
+                <div class="box">
+                  <div class="lft">
+                    <p>Early 2023' Portfolio</p>
+                  </div>
+                  <div class="rgt">
+                    <img src="./assets/awards/kudos.avif" alt="">
+                    <div class="txt">
+                      <h6>Special Kudos Award</h6>
+                      <p>CSS Design Awards</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="lft">
+                    <p></p>
+                  </div>
+                  <div class="rgt">
+                    <img src="./assets/awards/ux.avif" alt="">
+                    <div class="txt">
+                      <h6>UX Design Award</h6>
+                      <p>CSS Design Awards</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="lft">
+                    <p></p>
+                  </div>
+                  <div class="rgt">
+                    <img src="./assets/awards/ui.avif" alt="">
+                    <div class="txt">
+                      <h6>UI Design Award</h6>
+                      <p>CSS Design Awards</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="lft">
+                    <p></p>
+                  </div>
+                  <div class="rgt">
+                    <img src="./assets/awards/innovation.avif" alt="">
+                    <div class="txt">
+                      <h6>Innovation Award</h6>
+                      <p>CSS Design Awards</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="lft">
+                    <p></p>
+                  </div>
+                  <div class="rgt">
+                    <img src="./assets/awards/killer.png" alt="">
+                    <div class="txt">
+                      <h6>Featured Portfolio</h6>
+                      <p>Killer Portfolio</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box" id="awwards-box-last-item">
+                  <div class="lft">
+                    <p>P1nnacle Designs<br>
+                      2024' Website</p>
+                  </div>
+                  <div class="rgt">
+                    <img src="./assets/awards/dark-design.png" alt="">
+                    <div class="txt">
+                      <h6>Featured Website</h6>
+                      <p>Dark Mode Design</p>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+
+
+
+
+          <div class="experiance">
+            <div class="aboutsecheading">
+              <p>EDUCATION</p>
+            </div>
+            <div class="content">
+
+              <div class="box d-flex">
+                <div class="lft">
+                  <p>2022 — 2024</p>
+                </div>
+                <div class="rgt">
+                  <p>Diploma — Software engineering<br><label>Aptech (ACCP) NK</label></p>
+                </div>
+              </div>
+
+              <div class="box d-flex">
+                <div class="lft">
+                  <p>2021 — 2022</p>
+                </div>
+                <div class="rgt">
+                  <p>Intermidiate<br><label>Gov Boys Degree College</label></p>
+                </div>
+              </div>
+
+              <div class="box d-flex">
+                <div class="lft">
+                  <p>2022 — 2024</p>
+                </div>
+                <div class="rgt">
+                  <p>Matroculation<br><label>The Muslim Scholl</label></p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="tool-stack">
+            <div class="aboutsecheading">
+              <p>TOOL Stack</p>
+            </div>
+            <div class="tools">
+              <img data-toggle="tooltip" data-placement="top" title="PHOTOSHOP" src="./assets/images/tools/Adobe_Photoshop_CC_icon.svg.png" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="CANVA" src="./assets/images/tools/Canva_icon_2021.svg.png" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="chat gpt" src="./assets/images/tools/chat-gpt.webp" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="COPY EMAIL" src="./assets/images/tools/codepen.png" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="COPY EMAIL" src="./assets/images/tools/copilet.jpeg" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="COPY EMAIL" src="./assets/images/tools/github-icon-logo-E5FF767098-seeklogo.com.png" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="COPY EMAIL" src="./assets/images/tools/grammer.webp" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="COPY EMAIL" src="./assets/images/tools/iconjar.avif" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="COPY EMAIL" src="./assets/images/tools/loom.webp" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="COPY EMAIL" src="./assets/images/tools/miro.avif" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="COPY EMAIL" src="./assets/images/tools/notion.avif" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="COPY EMAIL" src="./assets/images/tools/N6bSuFrvLD23muMwIiv7wNagC1I.webp" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="COPY EMAIL" src="https://framerusercontent.com/images/obbHhMQ8fdioEjUY5xTFmydk0K8.png" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="COPY EMAIL" src="https://framerusercontent.com/images/d7mXzArjFgc2OO2AQoWsudKIRLI.png" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="COPY EMAIL" src="https://framerusercontent.com/images/0FdvRNMhbkR3xeYEJ1aFEk3PiY.png" alt="">
+              <img data-toggle="tooltip" data-placement="top" title="COPY EMAIL" src="https://framerusercontent.com/images/wW33etq1EFwQ99eLu65fj79eg.png" alt="">
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+  <footer class="footer" id="footer">
+    <div class="footer-cover">
+      <div class="content">
+        <p><span>Let's talk</span> about your <label>next</label> project</p>
+        <div class="div">
+          <h3> Fill the form <img src="./assets/images/svgs/send-plane.svg" alt="" /></h3>
+          <span>or copy an email: <span href="" class="position-relative email-copied-link"><label class="position-absolute label-copy-email">Email has been Copied</label><span class="text-decoration-underline">hcksalman@gmail.com</span><img class="px-1" src="./assets/images/svgs/copy.svg"
+                alt="" /></span></span>
+        </div>
+
+      </div>
+      <div class="top-line">
+        <div class="lines">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="row footer-bottom">
+        <div class="col-lg-4">
+          <p class="lh-base">
+            Version <span class="d-block">© 2025 · Ahmed Salman</span>
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <p class="lh-base">
+            Local time <span class="d-block" id="karachi-time"></span>
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <p class="lh-base d-inline-block">Social<span class="d-block"><a href="edfsadf" class="rolling-text">Linked in</a></span></p>
+          <p class="lh-base d-inline-block"><span class="d-block ms-2"><a href="sdfsdfsdf" class="rolling-text">Github</a></span></p>
+          <p class="lh-base d-inline-block"><span class="d-block ms-2"><a href="sdfsddfsdfd" class="rolling-text">Twitter, x</a></span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/main.js"></script>
+</body>
+
+</html>
